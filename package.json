@@ -1,0 +1,21 @@
+{
+  "name": "blanc-dark",
+  "displayName": "blanc-dark",
+  "description": "It is a dark theme for vscode",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.78.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "blanc-dark",
+        "uiTheme": "vs-dark",
+        "path": "./themes/blanc-dark-color-theme.json"
+      }
+    ]
+  }
+}
